@@ -30,7 +30,7 @@ function Login() {
           alt="whatsapp"
         />
 
-        <h2 className="title">WhatsApp Login</h2>
+        <h2 className="title">myChatApp Login</h2>
 
         <input
           className="input"
