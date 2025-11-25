@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 import io from "socket.io-client";
 import API from "../services/api";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://mychatapp-xu23.onrender.com");
+
 
 function Chat() {
   const { user } = useAuth()!;
